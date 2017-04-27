@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D15685E31E8AFE9D00AC1D67 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15685E21E8AFE9D00AC1D67 /* Shot.swift */; };
+		D15685E51E8AFED200AC1D67 /* KamcordAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15685E41E8AFED200AC1D67 /* KamcordAPI.swift */; };
+		D15AA7891E8C73D7006B042B /* KamcordAPIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AA7881E8C73D7006B042B /* KamcordAPIResult.swift */; };
+		D15AA78B1E8C7417006B042B /* ImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AA78A1E8C7417006B042B /* ImageSize.swift */; };
+		D15AA78D1E8C74FF006B042B /* ShotsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AA78C1E8C74FF006B042B /* ShotsViewModel.swift */; };
+		D17C4F5A1E8A02B00070DA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17C4F591E8A02B00070DA0A /* AppDelegate.swift */; };
+		D17C4F5C1E8A02B00070DA0A /* ShotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17C4F5B1E8A02B00070DA0A /* ShotsViewController.swift */; };
+		D17C4F5F1E8A02B00070DA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17C4F5D1E8A02B00070DA0A /* Main.storyboard */; };
+		D17C4F611E8A02B00070DA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17C4F601E8A02B00070DA0A /* Assets.xcassets */; };
+		D17C4F641E8A02B00070DA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17C4F621E8A02B00070DA0A /* LaunchScreen.storyboard */; };
+		D17C4F6C1E8A09F60070DA0A /* ShotsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17C4F6B1E8A09F60070DA0A /* ShotsCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D15685E21E8AFE9D00AC1D67 /* Shot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
+		D15685E41E8AFED200AC1D67 /* KamcordAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KamcordAPI.swift; sourceTree = "<group>"; };
+		D15AA7881E8C73D7006B042B /* KamcordAPIResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KamcordAPIResult.swift; sourceTree = "<group>"; };
+		D15AA78A1E8C7417006B042B /* ImageSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSize.swift; sourceTree = "<group>"; };
+		D15AA78C1E8C74FF006B042B /* ShotsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsViewModel.swift; sourceTree = "<group>"; };
+		D17C4F561E8A02B00070DA0A /* KamcordShots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KamcordShots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17C4F591E8A02B00070DA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D17C4F5B1E8A02B00070DA0A /* ShotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotsViewController.swift; sourceTree = "<group>"; };
+		D17C4F5E1E8A02B00070DA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D17C4F601E8A02B00070DA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D17C4F631E8A02B00070DA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D17C4F651E8A02B00070DA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D17C4F6B1E8A09F60070DA0A /* ShotsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D17C4F531E8A02B00070DA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D17C4F4D1E8A02B00070DA0A = {
+			isa = PBXGroup;
+			children = (
+				D17C4F581E8A02B00070DA0A /* KamcordShots */,
+				D17C4F571E8A02B00070DA0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D17C4F571E8A02B00070DA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D17C4F561E8A02B00070DA0A /* KamcordShots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D17C4F581E8A02B00070DA0A /* KamcordShots */ = {
+			isa = PBXGroup;
+			children = (
+				D17C4F591E8A02B00070DA0A /* AppDelegate.swift */,
+				D15685E21E8AFE9D00AC1D67 /* Shot.swift */,
+				D15AA78A1E8C7417006B042B /* ImageSize.swift */,
+				D15685E41E8AFED200AC1D67 /* KamcordAPI.swift */,
+				D15AA7881E8C73D7006B042B /* KamcordAPIResult.swift */,
+				D15AA78C1E8C74FF006B042B /* ShotsViewModel.swift */,
+				D17C4F5B1E8A02B00070DA0A /* ShotsViewController.swift */,
+				D17C4F6B1E8A09F60070DA0A /* ShotsCollectionViewCell.swift */,
+				D17C4F5D1E8A02B00070DA0A /* Main.storyboard */,
+				D17C4F601E8A02B00070DA0A /* Assets.xcassets */,
+				D17C4F621E8A02B00070DA0A /* LaunchScreen.storyboard */,
+				D17C4F651E8A02B00070DA0A /* Info.plist */,
+			);
+			path = KamcordShots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D17C4F551E8A02B00070DA0A /* KamcordShots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17C4F681E8A02B00070DA0A /* Build configuration list for PBXNativeTarget "KamcordShots" */;
+			buildPhases = (
+				D17C4F521E8A02B00070DA0A /* Sources */,
+				D17C4F531E8A02B00070DA0A /* Frameworks */,
+				D17C4F541E8A02B00070DA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KamcordShots;
+			productName = KamcordShots;
+			productReference = D17C4F561E8A02B00070DA0A /* KamcordShots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D17C4F4E1E8A02B00070DA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sang;
+				TargetAttributes = {
+					D17C4F551E8A02B00070DA0A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4W227SQZ26;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D17C4F511E8A02B00070DA0A /* Build configuration list for PBXProject "KamcordShots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D17C4F4D1E8A02B00070DA0A;
+			productRefGroup = D17C4F571E8A02B00070DA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D17C4F551E8A02B00070DA0A /* KamcordShots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D17C4F541E8A02B00070DA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D17C4F641E8A02B00070DA0A /* LaunchScreen.storyboard in Resources */,
+				D17C4F611E8A02B00070DA0A /* Assets.xcassets in Resources */,
+				D17C4F5F1E8A02B00070DA0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D17C4F521E8A02B00070DA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15685E51E8AFED200AC1D67 /* KamcordAPI.swift in Sources */,
+				D15AA7891E8C73D7006B042B /* KamcordAPIResult.swift in Sources */,
+				D17C4F6C1E8A09F60070DA0A /* ShotsCollectionViewCell.swift in Sources */,
+				D17C4F5C1E8A02B00070DA0A /* ShotsViewController.swift in Sources */,
+				D15AA78D1E8C74FF006B042B /* ShotsViewModel.swift in Sources */,
+				D15AA78B1E8C7417006B042B /* ImageSize.swift in Sources */,
+				D17C4F5A1E8A02B00070DA0A /* AppDelegate.swift in Sources */,
+				D15685E31E8AFE9D00AC1D67 /* Shot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D17C4F5D1E8A02B00070DA0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D17C4F5E1E8A02B00070DA0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D17C4F621E8A02B00070DA0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D17C4F631E8A02B00070DA0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D17C4F661E8A02B00070DA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D17C4F671E8A02B00070DA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D17C4F691E8A02B00070DA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4W227SQZ26;
+				INFOPLIST_FILE = KamcordShots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sang.KamcordShots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D17C4F6A1E8A02B00070DA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4W227SQZ26;
+				INFOPLIST_FILE = KamcordShots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sang.KamcordShots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D17C4F511E8A02B00070DA0A /* Build configuration list for PBXProject "KamcordShots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17C4F661E8A02B00070DA0A /* Debug */,
+				D17C4F671E8A02B00070DA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17C4F681E8A02B00070DA0A /* Build configuration list for PBXNativeTarget "KamcordShots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D17C4F691E8A02B00070DA0A /* Debug */,
+				D17C4F6A1E8A02B00070DA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D17C4F4E1E8A02B00070DA0A /* Project object */;
+}
